@@ -5,34 +5,35 @@ body{
 .header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
-
 }
 .firstTitle{
     grid-column-start: 2;
-    
 }
 
 .menu{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    
+    grid-template-columns: repeat(5, 1fr); 
 }
 
 .menu1{
     background-color: red;
-    grid-column-start: 1;
-    
+    grid-column-start: 1; 
 }
 
 .menu2{
     background-color: blueviolet;
     grid-column-start: 2;
-   
 }
 
 .menu3{
     background-color: green;
     grid-column-start: 3;
-    
+}
+.menu4{
+    background-color: rgb(80, 104, 209);
+    grid-column-start: 4;
+}
+.menu5{
+    background-color: rgb(225, 221, 16);
+    grid-column-start: 5;
 }
