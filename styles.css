@@ -1,39 +1,42 @@
 body{
     background-color: aliceblue;
 }
-
 .header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    border: 2px solid blue;
 }
 .firstTitle{
+    background-color: violet;
     grid-column-start: 2;
+    text-align: center;
+    border: 2px solid blue;
 }
-
 .menu{
+    display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border: 2px solid blue;
+      
+}
+
+.container{
     display: grid;
-    grid-template-columns: repeat(5, 1fr); 
+    grid-template-columns: auto 1fr;
+    height: 700px;
+    
 }
-
-.menu1{
-    background-color: red;
-    grid-column-start: 1; 
+.menuGauche{
+    border: 2px solid blue;
+    background-color: antiquewhite;
+   
 }
-
-.menu2{
-    background-color: blueviolet;
-    grid-column-start: 2;
+.pageCentrale{
+    border: 2px solid blue;
+    background-color: rgb(18, 166, 154);
 }
-
-.menu3{
-    background-color: green;
-    grid-column-start: 3;
-}
-.menu4{
-    background-color: rgb(80, 104, 209);
-    grid-column-start: 4;
-}
-.menu5{
-    background-color: rgb(225, 221, 16);
-    grid-column-start: 5;
+.footer{
+    border: 2px solid blue;
+    background-color: brown;
+    height: 60px;
 }
